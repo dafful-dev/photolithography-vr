@@ -3520,6 +3520,7 @@ GameObject:
   - component: {fileID: 728119742}
   - component: {fileID: 728119741}
   - component: {fileID: 728119746}
+  - component: {fileID: 728119747}
   m_Layer: 0
   m_Name: Right Ray Interactor
   m_TagString: Untagged
@@ -3948,6 +3949,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d12135d8e1f35a34bad8acb018695fac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &728119747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728119739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67e88c2e23d55294a8fdee20561bea21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameManagerUtilObj: {fileID: 1728322211}
 --- !u!1 &747148627
 GameObject:
   m_ObjectHideFlags: 0
@@ -25884,6 +25898,7 @@ GameObject:
   - component: {fileID: 635025465948064989}
   - component: {fileID: 8872589679280337696}
   - component: {fileID: 8872589679280337695}
+  - component: {fileID: 8872589679280337697}
   m_Layer: 0
   m_Name: Wafer
   m_TagString: Wafer
@@ -27019,6 +27034,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f8ea604e3979894ca8107c65cc9a6af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8872589679280337697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8322405453499860881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05a4fc5c6fb23744484e1538c6b02842, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameManagerUtilObj: {fileID: 1728322211}
 --- !u!33 &8897240366600826401
 MeshFilter:
   m_ObjectHideFlags: 0

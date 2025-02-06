@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class GameManagerUtil : MonoBehaviour
 {
+    public bool IsGrabbing { get; set; } = false;
+
+
     public void HandleExit()
     {
 #if UNITY_STANDALONE
