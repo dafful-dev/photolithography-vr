@@ -11,7 +11,7 @@ public class HandleMenuCanvas : MonoBehaviour
     public TextMeshProUGUI TitleText;
     public Button BackButton;
     public Button ExitButton;
-    public Button HelpButton;
+   // public Button HelpButton;
 
 
     MenuData MenuDataObject;
@@ -32,7 +32,7 @@ public class HandleMenuCanvas : MonoBehaviour
         MenuData.OnMenuChange += RenderMenu;
         BackButton.onClick.AddListener(MenuDataObject.RemoveMenu);
         ExitButton.onClick.AddListener(GameManager.HandleExit);
-        HelpButton.onClick.AddListener(() => MenuDataObject.AddMenu(MenuKey.Help));
+       // HelpButton.onClick.AddListener(() => MenuDataObject.AddMenu(MenuKey.Help));
 
     }
 
@@ -41,7 +41,7 @@ public class HandleMenuCanvas : MonoBehaviour
         MenuData.OnMenuChange -= RenderMenu;
         BackButton.onClick.RemoveListener(MenuDataObject.RemoveMenu);
         ExitButton.onClick.RemoveListener(GameManager.HandleExit);
-        HelpButton.onClick.RemoveAllListeners();
+       // HelpButton.onClick.RemoveAllListeners();
     }
 
 
