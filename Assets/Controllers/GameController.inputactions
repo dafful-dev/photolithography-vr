@@ -1,0 +1,94 @@
+{
+    "name": "GameController",
+    "maps": [
+        {
+            "name": "BasButtons",
+            "id": "2b3a5e29-25bf-4f85-ad72-b9fdfa843cca",
+            "actions": [
+                {
+                    "name": "LeftPrimaryPressed",
+                    "type": "Button",
+                    "id": "2640ad18-5f3b-46d0-9618-e3ff44ff764b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "LeftSecondaryPressed",
+                    "type": "Button",
+                    "id": "5f85149c-3154-4722-96fd-e4bcda897790",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RightPrimaryPressed",
+                    "type": "Button",
+                    "id": "b537fb68-e862-4048-b8aa-75574faa5f5e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RightSecondaryPressed",
+                    "type": "Button",
+                    "id": "5c396950-1ebc-4c14-bec0-b01c0990893d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "de6f8ef8-9274-443b-8eba-daccec190453",
+                    "path": "<XRController>{LeftHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftPrimaryPressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9e848eba-b3f3-4a65-aba6-7dd512a88e24",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightPrimaryPressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0c5cb8ba-705b-4f6e-a0c2-103226a3151e",
+                    "path": "<XRController>{RightHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightSecondaryPressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3dad782e-033a-47f0-897d-3230c6f44757",
+                    "path": "<XRController>{LeftHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftSecondaryPressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
