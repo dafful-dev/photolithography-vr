@@ -3402,7 +3402,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &721682087
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8334,7 +8334,6 @@ MonoBehaviour:
   TitleText: {fileID: 1773873079}
   BackButton: {fileID: 1820852759}
   ExitButton: {fileID: 721682088}
-  HelpButton: {fileID: 1283646895}
 --- !u!1001 &1394826292
 PrefabInstance:
   m_ObjectHideFlags: 0
