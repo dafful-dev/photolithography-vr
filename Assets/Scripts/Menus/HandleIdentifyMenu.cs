@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Text.RegularExpressions;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -48,9 +49,17 @@ public class HandleIdentifyMenu : MonoBehaviour
         return itemIndex == LabItems.Length - 1;
     }
 
+    private string ConvertPascalCaseToSpaces(string input)
+    {
+        if (string.IsNullOrWhiteSpace(input))
+            return input;
+
+        return Regex.Replace(input, "(?<!^)([A-Z])", " $1");
+    }
+
     private void RenderText()
     {
-        TextObject.text = GetItem().ToString();
+        TextObject.text = ConvertPascalCaseToSpaces(GetItem().ToString());
         StepTextObject.text = $"{itemIndex + 1} / {LabItems.Length}";
         NextButton.interactable = false;
     }
