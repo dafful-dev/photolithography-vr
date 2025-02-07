@@ -3515,12 +3515,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 728119740}
+  - component: {fileID: 728119748}
   - component: {fileID: 728119743}
   - component: {fileID: 728119742}
   - component: {fileID: 728119741}
   - component: {fileID: 728119746}
   - component: {fileID: 728119747}
-  - component: {fileID: 728119748}
   m_Layer: 0
   m_Name: Right Ray Interactor
   m_TagString: Untagged
@@ -3844,7 +3844,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6803edce0201f574f923fd9d10e5b30a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 0}
+  m_InteractionManager: {fileID: 974575499}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -9520,7 +9520,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6803edce0201f574f923fd9d10e5b30a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 0}
+  m_InteractionManager: {fileID: 974575499}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -26137,8 +26137,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 8.481266, y: 3.5956938, z: 0.23811278}
-  m_Center: {x: -1.323489e-23, y: 0, z: 0.000000059604645}
+  m_Size: {x: 8.481266, y: 3.5956938, z: 0.24961668}
+  m_Center: {x: -6.119735e-28, y: -2.622987e-17, z: 0.005752012}
 --- !u!4 &8494525616518265098
 Transform:
   m_ObjectHideFlags: 0
