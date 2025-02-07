@@ -3515,12 +3515,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 728119740}
-  - component: {fileID: 728119744}
   - component: {fileID: 728119743}
   - component: {fileID: 728119742}
   - component: {fileID: 728119741}
   - component: {fileID: 728119746}
   - component: {fileID: 728119747}
+  - component: {fileID: 728119748}
   m_Layer: 0
   m_Name: Right Ray Interactor
   m_TagString: Untagged
@@ -3807,7 +3807,7 @@ LineRenderer:
   m_UseWorldSpace: 1
   m_Loop: 0
   m_ApplyActiveColorSpace: 1
---- !u!114 &728119744
+--- !u!114 &728119746
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3816,10 +3816,35 @@ MonoBehaviour:
   m_GameObject: {fileID: 728119739}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6803edce0201f574f923fd9d10e5b30a, type: 3}
+  m_Script: {fileID: 11500000, guid: d12135d8e1f35a34bad8acb018695fac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 974575499}
+--- !u!114 &728119747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728119739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67e88c2e23d55294a8fdee20561bea21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameManagerUtilObj: {fileID: 1728322211}
+--- !u!114 &728119748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728119739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10dbb5f186a3b094ba8d27c8ea624f5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 0}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -3937,31 +3962,6 @@ MonoBehaviour:
   m_OccludeARHitsWith3DObjects: 0
   m_OccludeARHitsWith2DObjects: 0
   m_ScaleMode: 0
---- !u!114 &728119746
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 728119739}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d12135d8e1f35a34bad8acb018695fac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &728119747
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 728119739}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67e88c2e23d55294a8fdee20561bea21, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  GameManagerUtilObj: {fileID: 1728322211}
 --- !u!1 &747148627
 GameObject:
   m_ObjectHideFlags: 0
@@ -27043,10 +27043,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 8322405453499860881}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 05a4fc5c6fb23744484e1538c6b02842, type: 3}
+  m_Script: {fileID: 11500000, guid: da96dc92095b429428b7702429ba2399, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GameManagerUtilObj: {fileID: 1728322211}
 --- !u!33 &8897240366600826401
 MeshFilter:
   m_ObjectHideFlags: 0
